@@ -1,0 +1,19 @@
+/* .selectable-grid-continer{;
+} */
+
+.grid{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  aspect-ratio: 1/1;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: fit-content;
+}
+
+.grid-cell{
+  aspect-ratio:  1/1;
+  box-sizing: border-box;
+  outline: 1px solid white;
+}
